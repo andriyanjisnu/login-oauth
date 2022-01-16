@@ -98,9 +98,9 @@ class Login extends CI_Controller {
 		$params['facebook_login_url'] = $this->facebook->create_auth_url($redirect_to);
 
 		$google_client = new Google_Client();	
-		$google_client->setClientId('354736706568-m0bt9i3a5fnh5514o25t70gk7jmmirc3.apps.googleusercontent.com'); //Define your ClientID
-		$google_client->setClientSecret('O2AVx-QubVLse4E-2Y4Tt2Ig'); //Define your Client Secret Key
-		$google_client->setRedirectUri('http://localhost/Sahabat-ibu-pintar/login'); //Define your Redirect Uri
+		$google_client->setClientId(''); //Define your ClientID
+		$google_client->setClientSecret(''); //Define your Client Secret Key
+		$google_client->setRedirectUri(''); //Define your Redirect Uri
 		$google_client->addScope('email');
 		$google_client->addScope('profile');
 		

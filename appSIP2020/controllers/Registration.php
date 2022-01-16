@@ -108,9 +108,9 @@ class Registration extends CI_Controller {
 		$params['flash'] = $this->session->flashdata('message');
 
 		$google_client = new Google_Client();	
-		$google_client->setClientId('354736706568-ktkaikjjs9kb3f3v5tbnpsl99pr5u14r.apps.googleusercontent.com'); //Define your ClientID
-		$google_client->setClientSecret('bqwaQfJDgBywbBvFBgqN6xBa'); //Define your Client Secret Key
-		$google_client->setRedirectUri('http://localhost/Sahabat-ibu-pintar/registration'); //Define your Redirect Uri
+		$google_client->setClientId(''); //Define your ClientID
+		$google_client->setClientSecret(''); //Define your Client Secret Key
+		$google_client->setRedirectUri(''); //Define your Redirect Uri
 		$google_client->addScope('email');
 		$google_client->addScope('profile');
 		

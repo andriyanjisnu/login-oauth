@@ -16,8 +16,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |  api_key           string   Developer key.
 |  scopes            string   Specify scopes
 */
-$config['google']['client_id']        = '354736706568-m0bt9i3a5fnh5514o25t70gk7jmmirc3.apps.googleusercontent.com';
-$config['google']['client_secret']    = 'O2AVx-QubVLse4E-2Y4Tt2Ig';
+$config['google']['client_id']        = '';
+$config['google']['client_secret']    = '';
 $config['google']['redirect_uri']     =  base_url().'login/with_google';
 $config['google']['application_name'] = '';
 $config['google']['api_key']          = '';
