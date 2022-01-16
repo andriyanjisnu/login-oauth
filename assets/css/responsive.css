@@ -1,0 +1,397 @@
+    @media (width: 2560px) {
+        ul.breadcrumb {
+            padding: 1px 725px;
+        }
+    }
+
+    @media (width: 1440px) {
+        ul.breadcrumb {
+            padding: 1px 167px;
+        }
+    }
+    
+    @media (width: 1280px) and (height: 950px) {
+        ul.breadcrumb {
+            padding: 1px 86px;
+        }
+    }
+    
+    @media (width: 1280px) and (height: 800px) {
+        ul.breadcrumb {
+            padding: 1px 78px;
+        }
+    }
+    
+    @media (height: 900px) and (width: 1440px) {
+        ul.breadcrumb {
+            padding: 1px 167px;
+        }
+    }
+    
+    @media (min-width: 1024px) and (max-width:1279px) {
+        .font-1x {
+            font-size: 0.9rem;
+        }
+        /* .nav-item {
+        padding-right: 10px;
+    } */
+        ul.breadcrumb {
+            padding: 1px 48px;
+        }
+        .items,
+        .rekomended-produk,
+        .banner {
+            max-width: 100vw;
+        }
+        img.tentang-img {
+            max-width: 300px;
+        }
+        /* .slick-arrow {
+            top: 140px;
+        } */
+        .rekomended-produk>.slick-dots {
+            top: 340px;
+        }
+        /* .banner>.slick-dots {
+            top: 390px;
+        } */
+        .share-yuk img {
+            margin-right: 0;
+        }
+        .ic-sosmed {
+            margin-left: 0;
+        }
+        h5.label-inspirasi-l {
+            font-size: 0.9rem;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width:1023px) {
+        .navbar {
+            padding: 0 .8rem;
+        }
+        .font-1x {
+            font-size: 0.6rem;
+        }
+        .nav-item {
+            padding-right: .5px;
+        }
+        ul.breadcrumb {
+            padding: 1px 40px;
+        }
+        .items,
+        .rekomended-produk,
+        .banner {
+            max-width: 100vw;
+        }
+        img.img-content {
+            top: -35px;
+        }
+        img.img-number {
+            width: 50px;
+        }
+        img.tentang-sip {
+            max-width: 300px;
+        }
+        img.tentang-img {
+            max-width: 200px;
+        }
+        h5.content-tentang {
+            font-size: .9rem;
+        }
+        /* .slick-arrow {
+            top: 100px;
+        } */
+        .rekomended-produk>.slick-dots {
+            top: 240px;
+        }
+        /* .banner>.slick-dots {
+            top: 300px;
+        } */
+        img.iip-detail-img {
+            max-width: 700px;
+        }
+        .share-yuk img {
+            margin-right: 0;
+        }
+        .ic-sosmed {
+            margin-left: 0;
+        }
+        .service .icon img {
+            max-width: 190px;
+            height: 110px;
+        }
+        a.nav-link {
+            font-size: 0.6rem;
+        }
+        .article-item-asset img {
+            height: 110px;
+        }
+        h5.label-inspirasi-l {
+            font-size: 0.8rem;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .col-centered {
+            padding-top: 0;
+        }
+        .navbar {
+            padding: .5rem .8rem;
+        }
+        .navbar-nav {
+            background-color: #71BCE2;
+        }
+        .navbar-nav .b-bt {
+            border-bottom: 1px solid white;
+            padding: 12px 0;
+        }
+        .navbar-nav .b-top {
+            border-top: 1px solid white;
+            padding: 12px 0;
+        }
+        .nav-item {
+            padding-right: 0;
+        }
+        i.mr-icon {
+            font-size: 17px;
+            width: 26px;
+        }
+        ul.breadcrumb {
+            padding: 1px 15px;
+        }
+        .font-1x {
+            font-size: 0.8rem;
+        }
+        .ft-sk {
+            font-size: 3vw;
+        }
+        .kreasi-sip img {
+            max-width: 130px;
+            margin-top: 20px;
+        }
+        span.headline-kreasi {
+            font-size: 0.65rem;
+            font-weight: 700;
+        }
+        .items,
+        .rekomended-produk {
+            width: 280px;
+        }
+        .banner {
+            max-width: 100vw;
+        }
+        img.img-content {
+            top: -25px;
+        }
+        img.img-number {
+            width: 40px;
+        }
+        img.daftar-kreasi {
+            width: 120px;
+        }
+        .label-kreasi,
+        .isi-kreasi {
+            font-size: 0.65rem;
+        }
+        .inspirasi-sip img {
+            max-width: 150px;
+            margin-top: 20px;
+        }
+        h6.date {
+            text-align: center;
+            font-size: 0.8rem;
+            margin-top: 10px;
+        }
+        h4.label-inspirasi {
+            text-align: center;
+            font-size: 1.05rem;
+        }
+        h6.date-l {
+            font-size: 0.7rem;
+        }
+        h5.label-inspirasi-l {
+            font-size: 0.8rem;
+        }
+        .mb-30 {
+            margin-bottom: 0;
+        }
+        .btn-lihatlebihbanyak {
+            max-width: 120px;
+        }
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+        .promo-sip img {
+            max-width: 100px;
+        }
+        img.tentang-sip {
+            margin-bottom: 30px;
+            max-width: 280px;
+            text-align: center;
+        }
+        img.tentang-img {
+            max-width: 150px;
+        }
+        h5.content-tentang {
+            font-size: .7rem;
+            text-align: center;
+        }
+        .mt-minus10 {
+            margin-top: 0;
+        }
+        .align {
+            text-align: center !important;
+        }
+        /* .slick-arrow {
+            top: 100px;
+        } */
+        .slick-slide img {
+            padding: 0;
+        }
+        .rekomended-produk>.slick-dots {
+            top: 210px;
+        }
+        img.iip-detail-img {
+            max-width: 330px;
+        }
+        .artikel-terkait img {
+            max-width: 150px;
+        }
+        .label-rekproduk img {
+            max-width: 180px;
+            margin-top: 60px;
+        }
+        .share-yuk img {
+            max-width: 100px;
+            margin-right: 0;
+        }
+        .ic-sosmed {
+            margin-left: 0;
+        }
+        .ic-sosmed img {
+            max-width: 20px;
+        }
+        img.ic-menu {
+            width: 20px;
+            margin-right: 10px;
+        }
+        /* .banner>.slick-dots {
+            top: 180px;
+        } */
+        img.mengapa-sip {
+            max-width: 280px;
+            margin: 20px 0;
+        }
+        .service .icon img {
+            max-width: 250px;
+            height: 100px;
+        }
+        img.daftar-tentang {
+            max-width: 120px;
+        }
+        a.txt-pills {
+            font-size: 0.55em;
+        }
+        .nav-link {
+            padding: .6rem 1.2rem;
+        }
+        .tab-pane {
+            font-size: 0.8rem;
+        }
+        .cool-link:hover::after,
+        .cool-link.active::after {
+            width: 7%;
+        }
+        .gallerys {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        }
+        .gallery .icon img {
+            height: 250px;
+            border-radius: 10px 10px 0 0;
+        }
+        img.selanjutnya-gallery {
+            max-width: 120px;
+        }
+        .promosi img {
+            max-width: 120px;
+        }
+        h3.promosi {
+            font-size: 1.2em;
+        }
+        h4.promosi2 {
+            font-size: 0.9em;
+        }
+        img.download-kreasi {
+            max-width: 180px;
+        }
+        .gallerys-kreasi {
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
+        .kip-sebelumnya img {
+            max-width: 280px;
+        }
+        .galeri-kreasi img {
+            max-width: 260px;
+        }
+        .promosis-g {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+        .numberCircle {
+            width: 35px;
+            height: 35px;
+            padding: 8px;
+            font-size: .8rem;
+        }
+        h1.h1-blog {
+            font-size: 1.5em;
+        }
+        .slick-dots li button:before {
+            font-size: 10px;
+        }
+        
+        .slick-dots li.slick-active button:before {
+            font-size: 12px;
+        }
+        .article-item-asset img { height: 110px; }
+        /* .content-article {
+            font-size: 0.9rem;
+        } */
+        .slick-prev:before, .slick-next:before  {
+            font-size: 20px;
+        }
+        .slick-prev {
+            left: 10px;
+        }
+        .slick-next {
+            right: 13px;
+        }
+        h2.h2-title {
+            font-size: 1.2em;
+        }
+        .content-inspirasi {
+            font-size: 0.9rem !important;
+            text-align: left !important;
+        }
+
+    }
+
+    
+    
+    @media (max-width:320px) {
+        img.iip-detail-img {
+            max-width: 280px;
+        }
+        .banner {
+            max-width: 100vw;
+        }
+        .padding-10px-top {
+            padding-top: 0;
+        }
+        .margin-120px-top {
+            margin-top: 100px;
+        }
+        /* .banner>.slick-dots {
+            top: 140px;
+        } */
+    }
