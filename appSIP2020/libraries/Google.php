@@ -5,7 +5,7 @@ class Google extends Google_Client {
 	function __construct() {
 		parent::__construct(); 
 		$this->setAuthConfigFile('gmail.json');
-		$this->setRedirectUri('http://localhost/Sahabat-ibu-pintar/');
+		$this->setRedirectUri('');
 		$this->setScopes(array(
 		"https://www.googleapis.com/auth/plus.login",
 		"https://www.googleapis.com/auth/userinfo.email",
